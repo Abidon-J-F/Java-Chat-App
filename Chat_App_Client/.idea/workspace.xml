@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd0e3ef-a6a8-4caf-9662-45312859774b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/R4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chat_App_Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chat_App_Server/src/R4/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chat_App_Server/src/R4/Server.java" afterDir="false" />
+    <list default="true" id="dcd0e3ef-a6a8-4caf-9662-45312859774b" name="Changes" comment="Created Client class capable of establishing local host connection and sending messages to the server via commandline input">
+      <change afterPath="$PROJECT_DIR$/src/R4/Gui/ClientGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat_App_Server/src/R4/DataBaseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/R4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/R4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chat_App_Server/Chat_App_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chat_App_Server/Chat_App_Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chat_App_Server/src/R4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chat_App_Server/src/R4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,5 +130,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Client class capable of establishing local host connection and sending messages to the server via commandline input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Client class capable of establishing local host connection and sending messages to the server via commandline input" />
   </component>
 </project>
