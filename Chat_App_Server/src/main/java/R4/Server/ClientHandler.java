@@ -1,4 +1,4 @@
-package R4;
+package R4.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,5 +1,7 @@
-package R4;
+package R4.Database;
 //STEP 1. Import required packages
+import R4.Utillity.ConfigLoader;
+
 import java.sql.*;
 
 public class DataBaseHandler {

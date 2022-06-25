@@ -1,12 +1,16 @@
 package R4;
 
-import java.io.IOException;
+import R4.Server.Server;
+
 
 public class Main {
 
 
     public static void main(String[] args) {
         Server server = new Server();
+        MailServer mailServer = new MailServer();
+
+        mailServer.sendMail("Mail goes here");
         //DataBaseHandler db = new DataBaseHandler();
 /*
         System.out.println("Server listening for connections:");
@@ -18,7 +22,6 @@ public class Main {
         finally {
             server.stopServer();
         }
-
  */
 
     }
